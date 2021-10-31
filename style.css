@@ -9,6 +9,7 @@ body,
 html {
   height: 100vh;
   margin: 0;
+  -webkit-tap-highlight-color: transparent;
 }
 
 ::-webkit-scrollbar {
@@ -313,6 +314,11 @@ a {
     font-size: 13px;
     padding: 10px 0;
   }
+
+  .nav {
+    padding: 1em;
+  }
+
   .model .buttons {
     grid-row: 11/13;
     flex-direction: column;
